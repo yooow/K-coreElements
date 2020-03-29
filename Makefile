@@ -1,5 +1,5 @@
 main: $(OBJ)
-	gcc  main.c Outils.c minHeap.c -o main
+	gcc  *.c *.h -o main
 
 clean:
 	rm *.o
